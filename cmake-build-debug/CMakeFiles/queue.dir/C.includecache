@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/beiweiqiang/CLionProjects/queue/./include/queue.h
+stdbool.h
+-
+
+/Users/beiweiqiang/CLionProjects/queue/include/queue.h
+stdbool.h
+-
+
+/Users/beiweiqiang/CLionProjects/queue/main.c
+stdio.h
+-
+./include/queue.h
+/Users/beiweiqiang/CLionProjects/queue/./include/queue.h
+
+/Users/beiweiqiang/CLionProjects/queue/src/queue.c
+stdlib.h
+-
+../include/queue.h
+/Users/beiweiqiang/CLionProjects/queue/include/queue.h
+
